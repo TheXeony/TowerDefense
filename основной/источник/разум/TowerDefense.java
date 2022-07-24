@@ -58,7 +58,11 @@ public class TowerDefense {
                 "surge-alloy", Iconc.itemSurgeAlloy,
                 "spore-pod", Iconc.itemSporePod,
                 "blast-compound", Iconc.itemBlastCompound,
-                "pyratite", Iconc.itemPyratite
+                "pyratite", Iconc.itemPyratite,
+                "beryllium", Iconc.itemBeryllium,
+                "tungsten", Iconc.ItemTungsten,
+                "oxide", Iconc.ItemOxide,
+                "carbide", Iconc.ItemCarbide
         );
 
         drops = ObjectMap.of(
@@ -106,7 +110,25 @@ public class TowerDefense {
 
                 UnitTypes.alpha, ItemStack.with(Items.copper, 30, Items.lead, 30, Items.silicon, 20, Items.graphite, 20, Items.metaglass, 20),
                 UnitTypes.beta, ItemStack.with(Items.titanium, 40, Items.thorium, 20),
-                UnitTypes.gamma, ItemStack.with(Items.plastanium, 20, Items.phaseFabric, 10, Items.surgeAlloy, 10)
+                UnitTypes.gamma, ItemStack.with(Items.plastanium, 20, Items.phaseFabric, 10, Items.surgeAlloy, 10),
+
+                UnitTypes.stell, ItemStack.with(Items.beryllium, 10, Items.graphite , 7, Items.silicon, 5),
+                UnitTypes.locus, ItemStack.with(Items.beryllium, 20, Items.graphite, 10, Items.silicon, 15 , Items.tungsten, 15, Items.oxide, 10),
+                UnitTypes.precept, ItemStack.with(Items.beryllium, 20, Items.graphite, 15, Items.silicon, 20, Items.tungsten 20, Items.oxide, 20, Items.thorium, 15),
+                UnitTypes.vanquish, ItemStack.with(Items.beryllium, 45, Items.graphite, 25, Items.silicon, 35, Items.tungsten, 35, Items.oxide, 25, Items.thorium, 25, Items.carbide, 10, Items.surge-alloy, 10),
+                UnitTyeps.conquer, ItemStack.with(Items.beryllium, 50, Items.graphite, 40, Items.silicon, 50, Items.tungsten, 50, Items.oxide, 45, Items.thorium, 35, Items.carbide, 20, Items.surge-alloy, 20),
+    
+                UnitTypes.merui, ItemStack.with(Items.beryllium, 5, Items.graphite, 3, Items.silicon, 2),
+                UnitTypes.cleroi, ItemStack.with(Items.berrylium, 15, Items.graphite, 7, Items.silicon, 5, Items.tungsten, 7,Items.oxide, 7),
+                UnitTypes.anthicus, ItemStack.with(Items.beryllium, 20, Items.graphite, 15, Items.silicon, 10, Items.tungsten, 17, Items.oxide, 12, Items.thorium, 8),
+                UnitTypes.tecta, ItemStack.with(Items.beryllium, 30, Items.graphite, 20, Items.silicon, 30, Items.tungsten, 30, Items.oxide, 25, Items.thorium, 8, Items.carbide, 7, Items.surge-alloy, 7),
+                UnitTypes.collaris, ItemStack.with(Items.beryllium, 80, Items.graphite, 60, Items.silicon, 80, Items.tungsten, 80, Items.oxide, 50, Items.thorium, 50, Items.carbide, 30, Items.surge-alloy, 30),
+    
+                UnitTypes.elude, ItemStack.with(Items.beryllium, 15, Items.graphite, 12, Items.silicon, 8),
+                UnitTypes.avert, ItemStack.with(Items.beryllium, 30, Items.graphite, 15, Items.silicon, 23, Items.tungsten, 23, Items.oxide, 10),
+                UnitTypes.obviate, ItemStack.with(Items.beryllium, 45, Items.graphite, 23, Items.silicon, 30, Items.tungsten, 30, Items.oxide, 17, Items.thorium, 23),
+                UnitTypes.quell, ItemStack.with(Items.beryllium, 72, Items.graphite, 40, Items.silicon, 56, Items.tungsten, 56, Items.oxide, 25, Items.thorium, 40, Items.carbide, 16, Items.surge-alloy, 16),
+                UnitTypes.disrupt, ItemStack.with(Items.beryllium, 55, Items.graphite, 45, Items.silicon, 55, Items.tungsten, 55, Items.oxide, 30, Items.thorium, 40, Items.carbide, 25, Items.surge-alloy, 25)
         );
 
         netServer.admins.addActionFilter(action -> {
