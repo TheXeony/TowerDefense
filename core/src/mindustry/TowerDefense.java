@@ -60,9 +60,9 @@ public class TowerDefense {
                 "blast-compound", Iconc.itemBlastCompound,
                 "pyratite", Iconc.itemPyratite,
                 "beryllium", Iconc.itemBeryllium,
-                "tungsten", Iconc.ItemTungsten,
-                "oxide", Iconc.ItemOxide,
-                "carbide", Iconc.ItemCarbide
+                "tungsten", Iconc.itemTungsten,
+                "oxide", Iconc.itemOxide,
+                "carbide", Iconc.itemCarbide
         );
 
         drops = ObjectMap.of(
