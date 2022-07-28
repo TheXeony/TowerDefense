@@ -114,7 +114,7 @@ public class TowerDefense {
 
                 UnitTypes.stell, ItemStack.with(Items.beryllium, 10, Items.graphite , 7, Items.silicon, 5),
                 UnitTypes.locus, ItemStack.with(Items.beryllium, 20, Items.graphite, 10, Items.silicon, 15 , Items.tungsten, 15, Items.oxide, 10),
-                UnitTypes.precept, ItemStack.with(Items.beryllium, 20, Items.graphite, 15, Items.silicon, 20, Items.tungsten 20, Items.oxide, 20, Items.thorium, 15),
+                UnitTypes.precept, ItemStack.with(Items.beryllium, 20, Items.graphite, 15, Items.silicon, 20, Items.tungsten, 20, Items.oxide, 20, Items.thorium, 15),
                 UnitTypes.vanquish, ItemStack.with(Items.beryllium, 45, Items.graphite, 25, Items.silicon, 35, Items.tungsten, 35, Items.oxide, 25, Items.thorium, 25, Items.carbide, 10, Items.surge-alloy, 10),
                 UnitTyeps.conquer, ItemStack.with(Items.beryllium, 50, Items.graphite, 40, Items.silicon, 50, Items.tungsten, 50, Items.oxide, 45, Items.thorium, 35, Items.carbide, 20, Items.surge-alloy, 20),
     
